@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
-        <access/>
+        <access>public</access>
         <acls/>
         <active>false</active>
         <annotation/>

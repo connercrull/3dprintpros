@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="3D Object Cost" max_length="40" name="x_876517_3d_print_3d_object_cost" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="u_assigned_to" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Freelancer Fees" max_length="40" name="u_fees" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Material Cost (Grams)" mandatory="true" max_length="40" name="u_material_cost" type="string"/>
+        <element attributes="encode_utf8=false" label="3D Object Request Record" max_length="32" name="u_object_request" read_only="true" reference="x_876517_3d_print_object_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to Print (Hrs)" mandatory="true" max_length="40" name="u_print_time" type="string"/>
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_total_cost" read_only="true" type="currency"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_object_request"/>
+        </index>
+    </element>
+</database>

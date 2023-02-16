@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_876517_3d_print_3d_print_requests</description>
+        <name>x_876517_3d_print_3d_print_requests</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 19:22:28</sys_created_on>
+        <sys_id>6993d5620730a5101979fa4d7c1ed0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_876517_3d_print_3d_print_requests</sys_name>
+        <sys_package display_value="3D Print Pros" source="x_876517_3d_print">c2635dee07fc65101979fa4d7c1ed05c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Print Pros">c2635dee07fc65101979fa4d7c1ed05c</sys_scope>
+        <sys_update_name>sys_security_acl_6993d5620730a5101979fa4d7c1ed0df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 19:22:28</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="3D Print Pros">c2635dee07fc65101979fa4d7c1ed05c</application>
+        <file_path/>
+        <instance_id>884ad99bdb231f0089535d00cf9619f6</instance_id>
+        <instance_name>dev68326</instance_name>
+        <name>sys_security_acl_6993d5620730a5101979fa4d7c1ed0df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_876517_3d_print_3d_print_requests</description><name>x_876517_3d_print_3d_print_requests</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-06 19:22:28</sys_created_on><sys_id>6993d5620730a5101979fa4d7c1ed0df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_876517_3d_print_3d_print_requests</sys_name><sys_package display_value="3D Print Pros" source="x_876517_3d_print">c2635dee07fc65101979fa4d7c1ed05c</sys_package><sys_policy/><sys_scope display_value="3D Print Pros">c2635dee07fc65101979fa4d7c1ed05c</sys_scope><sys_update_name>sys_security_acl_6993d5620730a5101979fa4d7c1ed0df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-06 19:22:28</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>392471782</payload_hash>
+        <record_name>x_876517_3d_print_3d_print_requests</record_name>
+        <reverted_from/>
+        <source>c6635dee07fc65101979fa4d7c1ed05e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 19:22:28</sys_created_on>
+        <sys_id>6d93d5620730a5101979fa4d7c1ed0e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186282dfe770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 19:22:28</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a593d5628e30a5103ff9c1f7388cb6e1</update_guid>
+        <update_guid_history>a593d5628e30a5103ff9c1f7388cb6e1:392471782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 16:19:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>5c7eaa01eb404f188119d0fd99c35229</sys_id>
+        <sys_metadata>6993d5620730a5101979fa4d7c1ed0df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_876517_3d_print_3d_print_requests</sys_name>
+        <sys_package display_value="3D Print Pros" source="x_876517_3d_print">c2635dee07fc65101979fa4d7c1ed05c</sys_package>
+        <sys_parent display_value="">2d93d5620730a5101979fa4d7c1ed0e4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="3D Print Pros">c2635dee07fc65101979fa4d7c1ed05c</sys_scope>
+        <sys_scope_delete display_value="">7c4133c30a074c3c90f86ac2f1034690</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6993d5620730a5101979fa4d7c1ed0df</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6993d5620730a5101979fa4d7c1ed0df">6d93d5620730a5101979fa4d7c1ed0e1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 16:19:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

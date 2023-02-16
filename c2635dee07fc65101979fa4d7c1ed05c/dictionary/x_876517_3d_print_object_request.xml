@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="3D Object Request" max_length="40" name="x_876517_3d_print_object_request" sizeclass="9" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Shipping Address" max_length="40" name="shipping_address" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Material" max_length="40" name="u_choice_15" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ABS" sequence="0" value="abs"/>
+                <element inactive_on_update="false" label="PLA" sequence="1" value="pla"/>
+                <element inactive_on_update="false" label="PLA" sequence="2" value="pla_plus"/>
+                <element inactive_on_update="false" label="Resin" sequence="3" value="resin"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Item Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Dimensions" max_length="40" name="u_dimensions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Material Cost" max_length="40" name="u_material_cost" type="string"/>
+        <element label="Picture" max_length="40" name="u_picture" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to Print" max_length="40" name="u_print_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested Receive Date" max_length="40" name="u_receive_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Requestor" max_length="32" name="u_requestor" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requestor Company" max_length="32" name="u_requestor_company" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor email" max_length="40" name="u_requestor_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor phone number" max_length="40" name="u_requestor_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work_in_progress"/>
+                <element inactive_on_update="false" label="Print Complete" sequence="2" value="print_complete"/>
+                <element inactive_on_update="false" label="Quality Assurance Check" sequence="3" value="quality_assurance"/>
+                <element inactive_on_update="false" label="Shipped" sequence="4" value="shipped"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="5" value="closed_complete"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="6" value="closed_incomplete"/>
+            </choice>
+        </element>
+        <element label="STL File" max_length="40" name="u_stl_file" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="u_zip_code" type="string"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_requestor_company"/>
+        </index>
+        <index name="index3">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="u_requestor"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
